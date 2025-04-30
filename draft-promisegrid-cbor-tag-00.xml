@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- xml2rfc v3 format -->
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" category="info" submissionType="IETF" ipr="trust200902" docName="draft-promisegrid-cbor-tag-00">
+  <front>
+    <title>CBOR Tag for PromiseGrid Protocol Messages</title>
+    <!-- Authors section -->
+    <author fullname="..." initials="..." surname="...">
+      <organization>PromiseGrid</organization>
+      <address>
+        <email>...</email>
+      </address>
+    </author>
+    <date year="2025" month="April" day="30"/>
+    <abstract>
+      <t>This document defines a Concise Binary Object Representation (CBOR) tag for identifying messages conforming to the PromiseGrid wire protocol. The tag serves as a wrapper that enables receiving systems to recognize and properly interpret PromiseGrid protocol messages. The PromiseGrid protocol is a decentralized, agent-based system designed for structured message exchange with versioning through IPFS Content Identifiers (CIDs).</t>
+    </abstract>
+  </front>
+  <middle>
+    <!-- Main content sections go here -->
+  </middle>
+  <back>
+    <references>
+      <!-- References go here -->
+    </references>
+  </back>
+</rfc>

@@ -1,1 +1,58 @@
+General Protocol Registration Request Form
+==================================
 
+Protocol name: 
+  CBOR Tag for PromiseGrid Protocol Messages
+
+Description:
+  This CBOR tag (1735289204) identifies messages conforming to the PromiseGrid 
+  wire protocol. The PromiseGrid protocol is a decentralized, agent-based system 
+  designed for structured message exchange with versioning through IPFS Content 
+  Identifiers (CIDs).
+
+Registration Request Information:
+--------------------------------
+
+Registration request for: 
+  Concise Binary Object Representation (CBOR) Tags Registry
+
+Registrant contact information:
+  Name: PromiseGrid Working Group
+  Email: contact@promisegrid.org
+  URL: https://promisegrid.org/
+
+Registration information:
+-----------------------
+
+Tag: 1735289204 (0x67726964)
+
+Data Item: 
+  map / byte string
+
+Semantics: 
+  The tag identifies a CBOR data item that represents a PromiseGrid protocol 
+  message. When the tagged data item is a CBOR map, the map contains the 
+  PromiseGrid message with fields as defined by the protocol version referenced 
+  in the message. When the tagged data item is a byte string, the byte string 
+  contains a serialized PromiseGrid message that may be encrypted, compressed, 
+  or otherwise encoded according to rules defined by the protocol version.
+
+Point of contact:
+  Name: PromiseGrid Working Group
+  Email: contact@promisegrid.org
+
+Reference:
+  Internet-Draft: draft-promisegrid-cbor-tag-00 (pending publication)
+  URL: https://datatracker.ietf.org/doc/draft-promisegrid-cbor-tag/
+
+Additional information:
+----------------------
+
+The tag number was chosen based on the ASCII representation of "grid" (0x67726964), 
+which represents the PromiseGrid protocol's informal name.
+
+Per RFC 8949, the registration is in the "First Come First Served" range 
+(32768-18446744073709551615).
+
+This tag registration supports standardization of the PromiseGrid wire protocol 
+for secure, agent-based message exchange with built-in protocol versioning.

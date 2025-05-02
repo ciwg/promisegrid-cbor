@@ -10,6 +10,14 @@ This repository contains the necessary documentation for registering the CBOR ta
 
 - **`promisegrid-protocol-documentation-infrastructure.md`**: Documentation outlining how PromiseGrid protocol specifications are stored, versioned, and referenced using IPFS Content Identifiers (CIDs).
 
+## External Files
+
+- **[Master TODO List for PromiseGrid CBOR Tag](https://docs.google.com/document/d/14EfC7GvkJ6YuuorRzP4N7F5_6GeKcN51UIuBrFfXwuU/edit)**: A comprehensive checklist of technical, documentation, and coordination tasks required to define, implement, and register the PromiseGrid CBOR tag by IETF 123.
+
+- **[Deliverables and Deadlines for PromiseGrid CBOR Tag](https://docs.google.com/document/d/1PUaLawlAeKRwhmrgTN_6p2oNbQauud8dzIYPXTChQpU/edit)**: A structured timeline with milestone deadlines and descriptions for completing the draft, implementation, community engagement, and IETF submission.
+
+
+
 ## Project Overview
 
 PromiseGrid is a decentralized, agent-based protocol designed for structured message exchange. The CBOR tag `0x67726964` will serve as a wrapper for encoded messages that conform to the PromiseGrid wire protocol, allowing decoders to recognize and properly interpret message contents.
